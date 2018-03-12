@@ -19,7 +19,7 @@ public class ConnectionFactory {
 		try {
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost/servicedesk?"
-					+ "user=root&password=Hunterchaos@061975200&useSSL=false");
+					+ "user=alunos&password=alunos&useSSL=false");
 		} catch (SQLException e) {
 			throw new IOException(e);
 		}
